@@ -1,6 +1,15 @@
 
 # 📖 A Guide for your first pull request
 
+<br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/DipHire/Hacktoberfest2022/master/screenshots/1.gif?token=GHSAT0AAAAAABVZ5UFXPNHNARHM3NKGR7HEYZYMVJQ" height=500>
+<img src="https://github.com/DipHire/Hacktoberfest2022/blob/23208b8ea586a70a40084499bb6670dd469ead2e/screenshots/2.jpg" height=500>
+<img src="https://github.com/DipHire/Hacktoberfest2022/blob/23208b8ea586a70a40084499bb6670dd469ead2e/screenshots/3.jpg" height=500>
+<img src="https://github.com/DipHire/Hacktoberfest2022/blob/23208b8ea586a70a40084499bb6670dd469ead2e/screenshots/4.jpg" height=500>
+
+</p>
+
 ### ✨This project will help you to make your first pull request for Hacktoberfest .
 
 #### ⚙️Setup
@@ -69,6 +78,8 @@ Yay!! Refresh your profile at [Hacktoberfest](https://hacktoberfest.digitalocean
 
 
 <p align="center">
-  <img src= />
+  <img src="https://media.giphy.com/media/IwAZ6dvvvaTtdI8SD5/giphy.gif" height=200/>
+  <img src="https://media.giphy.com/media/sVnKj2wDhUTsFKFWhx/giphy.gif" height=200/>
+
 
 *PS. This repo is for absolute beginner who are trying to their first Open-source contribution*
