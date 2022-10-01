@@ -82,4 +82,3 @@ Yay!! Refresh your profile at [Hacktoberfest](https://hacktoberfest.digitalocean
   <img src="https://media.giphy.com/media/sVnKj2wDhUTsFKFWhx/giphy.gif" height=200/>
 
 
-*PS. This repo is for absolute beginner who are trying to their first Open-source contribution*
