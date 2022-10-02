@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Hacktoberfest 2022',
       routes: appRoutes,
       theme: appTheme,
       debugShowCheckedModeBanner: false,
