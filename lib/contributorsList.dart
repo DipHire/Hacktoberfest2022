@@ -11,7 +11,7 @@ List<User> getUsers() {
     {"name": "Mark Zuckerberg", "username": "mark85"},
     {"name": "Binod", "username": "binod69"},
     {"name": "Gauri Bhand","username":"Gauri023"},
-    {"name": "Aashvi Kothari", "username":"AashviKothari"}, 
+    {"name": "Aashvi Kothari", "username":"AashviKothari"},
     {"name": "Rahul Patnaik", "username": "clichepasta"},
     {"name": "Jay", "username": "jjgajjar04069999"},
     {"name": "Jayaditya Mishra", "username": "JayM2510"},
@@ -22,6 +22,7 @@ List<User> getUsers() {
     {"name": "Prateek Krishna", "username": "PrateekKrishna"},
     {"name": "Vikram Markali", "username": "Vikram739"}
     {"name": "Karthik Sudhan", "username": "karthik2607"},
+    {"name": "Mayank Gupta", "username": "rajmayank93"}
 
   ];
 
