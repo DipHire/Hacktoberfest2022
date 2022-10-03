@@ -15,6 +15,7 @@ List<User> getUsers() {
     {"name": "Rahul Patnaik", "username": "clichepasta"},
     {"name": "Jay", "username": "jjgajjar04069999"},
     {"name": "Jayaditya Mishra", "username": "JayM2510"},
+    {"name": "Vedika Sangle", "username": "vedikasangle"},
     {"name": "Abhishek Bhatt", "username": "bhattabhi013"},
     {"name": "Harsh Mudgal", "username": "dragoonoid"},
     {"name": "Mere Sai", "username": "mere-sai"},
