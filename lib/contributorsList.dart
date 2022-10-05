@@ -23,6 +23,7 @@ List<User> getUsers() {
     {"name": "Vikram Markali", "username": "Vikram739"},
     {"name": "Karthik Sudhan", "username": "karthik2607"},
     {"name": "Mayank Gupta", "username": "rajmayank93"},
+    {"name": "Amitesh Pandey", "username": "amitesh1801"},
     {"name": "Mas Ayang", "username": "hilmykun"},
     {"name": "Mobasshir Imam", "username": "imobasshir"},
     {"name": "Ayush Kumar Pandit", "username": "Ayushpanditmoto"},
