@@ -26,9 +26,10 @@ List<User> getUsers() {
     {"name": "Mas Ayang", "username": "hilmykun"},
     {"name": "Mobasshir Imam", "username": "imobasshir"},
     {"name": "Ayush Kumar Pandit", "username": "Ayushpanditmoto"},
-    {"name": "Pranjal Dubey", "username": "dubey2709"}
+    {"name": "Pranjal Dubey", "username": "dubey2709"},
     {"name": "Ousepachan", "username": "Ousu"},
-    {"name": "Abhishek Khairnar", "username":"abhishekkhairnar"}
+    {"name": "Abhishek Khairnar", "username": "abhishekkhairnar"},
+    {"name": "Vaibhav Prajapati", "username": "VaibhavdLights"}
   ];
 
   return data.map<User>(User.fromJson).toList();
