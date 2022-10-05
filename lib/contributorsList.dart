@@ -30,6 +30,7 @@ List<User> getUsers() {
     {"name": "Ousepachan", "username": "Ousu"},
     {"name": "Abhishek Khairnar", "username": "abhishekkhairnar"},
     {"name": "Vaibhav Prajapati", "username": "VaibhavdLights"}
+     {"name": "utkarshsingh", "username": "utksin13"}
   ];
 
   return data.map<User>(User.fromJson).toList();
