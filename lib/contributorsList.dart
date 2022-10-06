@@ -34,8 +34,8 @@ List<User> getUsers() {
     {"name": "Sumant Chaudhary", "username":"sumant7"}
     {"name": "Abhishek Khairnar", "username": "abhishekkhairnar"},
     {"name": "Vaibhav Prajapati", "username": "VaibhavdLights"},
+    {"name": "W.D. Snoeijer", "username": "dsnoeijer"}
     {"name": "Pravab Kar", "username": "PravabKar"}
-
     {"name": "Avishek Kumar", "username": "KoolAbhi03"},
     {"name": "Abhishek Khairnar", "username":"abhishekkhairnar"}
     {"name": "Aryan", "username":"YosoyAryan"},
