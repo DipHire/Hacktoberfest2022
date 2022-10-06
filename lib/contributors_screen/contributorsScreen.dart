@@ -28,15 +28,24 @@ class _ContributorsScreenState extends State<ContributorsScreen> {
           children: [
             Container(
               margin: const EdgeInsets.fromLTRB(100, 100, 100, 30),
+              height: 100,
+              width: MediaQuery.of(context).size.width,
               child: const Image(
                 image: AssetImage("images/mangatext.png"),
+                fit: BoxFit.contain,
               ),
             ),
             Text(
               'All Contributors',
               style: kHeadline,
             ),
-            Expanded(child: buildUser(users)),
+            Flexible(
+              child: SizedBox(
+                // height: 400,
+                width: MediaQuery.of(context).size.width,
+                child: buildUser(users),
+              ),
+            )
           ],
         ),
       ),

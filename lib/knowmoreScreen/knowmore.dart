@@ -18,7 +18,7 @@ class Knowmore extends StatelessWidget {
           child: Column(
             children: [
               const SizedBox(
-                height: 150.0,
+                height: 50.0,
               ),
               Center(
                 child: GlassmorphicContainer(
@@ -43,10 +43,12 @@ class Knowmore extends StatelessWidget {
                       textAlign: TextAlign.center,
                     ),
                     const SizedBox(
-                      height: 30.0,
+                      height: 20.0,
                     ),
                     Text(
                         'Hacktoberfest is a month-long celebration of open-source software by DigitalOcean that encourages participation in giving back to the open-source community. Developers get involved by completing pull requests, participating in events, and donating to open source projects. During this event, anyone can support open source by contributing changes and earn limited-edition swag.',
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 11,
                         style: kDescription,
                         textAlign: TextAlign.center),
                   ]),
@@ -87,6 +89,8 @@ class Knowmore extends StatelessWidget {
                           Text(
                               'Open source software is software that’s freely available to use and modify, typically shared via a public repository hosting service like Github. Projects that follow the open source model usually thrive through contributions from the developer community, and may allow for redistribution depending on which open source license they have adopted.',
                               style: kDescription,
+                              overflow: TextOverflow.ellipsis,
+                              maxLines: 11,
                               textAlign: TextAlign.center),
                         ]),
                   ),

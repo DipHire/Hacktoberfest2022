@@ -44,19 +44,37 @@ class CListTile extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(Name, textAlign: TextAlign.left, style: kName),
-                      Row(
-                        children: [
-                          FaIcon(
-                            FontAwesomeIcons.github,
-                            color: kprimevoid,
+                      Expanded(
+                        child: SizedBox(
+                          width: MediaQuery.of(context).size.width - 122,
+                          child: Text(
+                            Name,
+                            textAlign: TextAlign.left,
+                            style: kName,
+                            overflow: TextOverflow.ellipsis,
+                            maxLines: 1,
                           ),
-                          const SizedBox(
-                            width: 10.0,
-                          ),
-                          Text(Username,
-                              textAlign: TextAlign.right, style: kUsername),
-                        ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: MediaQuery.of(context).size.width - 122,
+                        child: Row(
+                          children: [
+                            FaIcon(
+                              FontAwesomeIcons.github,
+                              color: kprimevoid,
+                            ),
+                            const SizedBox(
+                              width: 10.0,
+                            ),
+                            Text(
+                              Username,
+                              textAlign: TextAlign.right,
+                              style: kUsername,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   ),

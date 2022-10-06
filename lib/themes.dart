@@ -19,7 +19,7 @@ TextStyle kUsername = TextStyle(
     color: kprimevoid);
 
 TextStyle kHeadline = TextStyle(
-    fontSize: 50.0,
+    fontSize: 60.0,
     fontWeight: FontWeight.bold,
     fontFamily: GoogleFonts.openSans().fontFamily,
     color: kprimemanga);
