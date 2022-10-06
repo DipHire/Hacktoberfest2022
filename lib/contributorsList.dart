@@ -29,6 +29,9 @@ List<User> getUsers() {
     {"name": "Pranjal Dubey", "username": "dubey2709"},
     {"name": "Ousepachan", "username": "Ousu"},
     {"name": "Abhishek Khairnar", "username": "abhishekkhairnar"},
+    {"name": "Vaibhav Prajapati", "username": "VaibhavdLights"},
+    {"name": "Pravab Kar", "username": "PravabKar"}
+
     {"name": "Avishek Kumar", "username": "KoolAbhi03"},
     {"name": "Abhishek Khairnar", "username":"abhishekkhairnar"}
     {"name": "Aryan", "username":"YosoyAryan"},
