@@ -18,13 +18,16 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                margin: const EdgeInsets.fromLTRB(40, 60, 40, 0),
+                margin: const EdgeInsets.fromLTRB(100, 100, 100, 30),
+                height: 80,
+                width: MediaQuery.of(context).size.width,
                 child: const Image(
                   image: AssetImage("images/mangatext.png"),
+                  fit: BoxFit.contain,
                 ),
               ),
               const SizedBox(
-                height: 80.0,
+                height: 10.0,
               ),
               const GradBtn("All Contrubutors", '/Contributors'),
               const SizedBox(
