@@ -49,6 +49,7 @@ List<User> getUsers() {
     {"name": "Vaibhav Prajapati", "username": "VaibhavdLights"},
     {"name": "Saransh Shankar", "username": "Wise-Wizard"},
     {"name": "Joel Sathiyendra Thiyaheswaran", "username": "joelsathi"},
+    {"name": "Dishant Zaveri", "username": "dishantzaveri"},
     
     
   ];
