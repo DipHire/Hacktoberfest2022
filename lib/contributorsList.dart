@@ -10,6 +10,7 @@ List<User> getUsers() {
     {"name": "jeff Bezos", "username": "imjeff"},
     {"name": "Mark Zuckerberg", "username": "mark85"},
     {"name": "Binod", "username": "binod69"},
+    {"name": "Uzair Hussain", "username": "Uzairhussain98"},
     {"name": "Gauri Bhand", "username": "Gauri023"},
     {"name": "Aashvi Kothari", "username": "AashviKothari"},
     {"name": "Rahul Patnaik", "username": "clichepasta"},
