@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hacktoberfest/themes.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:hacktoberfest/widgets/back_and_forth_animation_wrapper.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class CListTile extends StatelessWidget {
@@ -40,49 +41,60 @@ class CListTile extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Expanded(
-                        child: SizedBox(
-                          width: MediaQuery.of(context).size.width - 122,
-                          child: Text(
-                            Name,
-                            textAlign: TextAlign.left,
-                            style: kName,
-                            overflow: TextOverflow.ellipsis,
-                            maxLines: 1,
-                          ),
+                  Container(
+                    height: 80,
+                    width: 80,
+                    decoration: BoxDecoration(
+                      color: Colors.grey,
+                      borderRadius: BorderRadius.circular(16),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          'https://github.com/$Username.png',
                         ),
+                        fit: BoxFit.cover,
                       ),
-                      SizedBox(
-                        width: MediaQuery.of(context).size.width - 122,
-                        child: Row(
+                    ),
+                  ),
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          Name,
+                          textAlign: TextAlign.left,
+                          style: kName,
+                          overflow: TextOverflow.ellipsis,
+                          maxLines: 1,
+                        ),
+                        Row(
                           children: [
                             FaIcon(
                               FontAwesomeIcons.github,
                               color: kprimevoid,
                             ),
-                            const SizedBox(
-                              width: 10.0,
-                            ),
-                            Text(
-                              Username,
-                              textAlign: TextAlign.right,
-                              style: kUsername,
-                              overflow: TextOverflow.ellipsis,
+                            const SizedBox(width: 10.0),
+                            Expanded(
+                              child: Text(
+                                Username,
+                                // textAlign: TextAlign.right,
+                                style: kUsername,
+                                overflow: TextOverflow.ellipsis,
+                              ),
                             ),
                           ],
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
-                  FaIcon(
-                    FontAwesomeIcons.arrowRight,
-                    size: 40.0,
-                    color: kprimevoid,
-                  )
+                  BackAndForthAnimationWrapper(
+                    child: FaIcon(
+                      FontAwesomeIcons.arrowRight,
+                      size: 20.0,
+                      color: kprimevoid,
+                    ),
+                  ),
                 ],
               ),
             ),
