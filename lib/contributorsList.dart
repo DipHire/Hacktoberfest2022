@@ -21,6 +21,7 @@ List<User> getUsers() {
     {"name": "Harsh Mudgal", "username": "dragoonoid"},
     {"name": "Mere Sai", "username": "mere-sai"},
     {"name": "Prateek Krishna", "username": "PrateekKrishna"},
+    {"name": "Jana", "username": "Urmi-Jana"},
     {"name": "Vikram Markali", "username": "Vikram739"},
     {"name": "Karthik Sudhan", "username": "karthik2607"},
     {"name": "Mayank Gupta", "username": "rajmayank93"},
