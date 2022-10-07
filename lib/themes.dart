@@ -19,12 +19,12 @@ TextStyle kUsername = TextStyle(
     color: kprimevoid);
 
 TextStyle kHeadline = TextStyle(
-    fontSize: 60.0,
+    fontSize: 53,
     fontWeight: FontWeight.bold,
     fontFamily: GoogleFonts.openSans().fontFamily,
     color: kprimemanga);
 TextStyle kDescription = TextStyle(
-    fontSize: 25.0,
+    fontSize: 23.0,
     fontWeight: FontWeight.normal,
     fontFamily: GoogleFonts.jetBrainsMono().fontFamily,
     color: kprimemanga);
