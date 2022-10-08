@@ -33,28 +33,28 @@ List<User> getUsers() {
     {"name": "Ayush Kumar Pandit", "username": "Ayushpanditmoto"},
     {"name": "Pranjal Dubey", "username": "dubey2709"},
     {"name": "Ousepachan", "username": "Ousu"},
-    {"name": "Abhishek Khairnar", "username":"abhishekkhairnar"},
-    {"name": "Sumant Chaudhary", "username":"sumant7"}
     {"name": "Abhishek Khairnar", "username": "abhishekkhairnar"},
-    {"name": "Vaibhav Prajapati", "username": "VaibhavdLights"}
-    {"name": "utkarshsingh", "username": "utksin13"}
+    {"name": "Sumant Chaudhary", "username": "sumant7"},
+    {"name": "Abhishek Khairnar", "username": "abhishekkhairnar"},
     {"name": "Vaibhav Prajapati", "username": "VaibhavdLights"},
-    {"name": "Tanveer Singh", "username": "tanxveer"}
-    {"name": "W.D. Snoeijer", "username": "dsnoeijer"}
-    {"name": "Pravab Kar", "username": "PravabKar"}
+    {"name": "utkarshsingh", "username": "utksin13"},
+    {"name": "Vaibhav Prajapati", "username": "VaibhavdLights"},
+    {"name": "Tanveer Singh", "username": "tanxveer"},
+    {"name": "W.D. Snoeijer", "username": "dsnoeijer"},
+    {"name": "Pravab Kar", "username": "PravabKar"},
     {"name": "Avishek Kumar", "username": "KoolAbhi03"},
-    {"name": "Abhishek Khairnar", "username":"abhishekkhairnar"}
-    {"name": "Aryan", "username":"YosoyAryan"},
-    {"name": "Abhishek Khairnar", "username":"abhishekkhairnar"},
+    {"name": "Abhishek Khairnar", "username": "abhishekkhairnar"},
+    {"name": "Aryan", "username": "YosoyAryan"},
+    {"name": "Abhishek Khairnar", "username": "abhishekkhairnar"},
     {"name": "Astha", "username": "arshivaastha"},
-    {"name": "utkarsh singh", "username":"utksin13"}
+    {"name": "utkarsh singh", "username": "utksin13"},
     {"name": "Abhishek Khairnar", "username": "abhishekkhairnar"},
     {"name": "Vaibhav Prajapati", "username": "VaibhavdLights"},
     {"name": "Saransh Shankar", "username": "Wise-Wizard"},
     {"name": "Joel Sathiyendra Thiyaheswaran", "username": "joelsathi"},
     {"name": "Samarth kumar", "username": "samarthku"},
     {"name": "Prath Nayak", "username": "neocollege"},
-    {"name":"Phillip Cabrera","username":"pcabreram1234"},
+    {"name": "Phillip Cabrera", "username": "pcabreram1234"},
     {"name": "Charalambos Ioannou", "username": "CharalambosIoannou"},
     {"name": "Sudipta Chowdhury", "username": "SudiptaAChy"},
   ];
