@@ -58,7 +58,7 @@ class on_BoardingScreenState extends State<onBoardingScreen> {
                 SmoothPageIndicator(
                   controller: _controller,
                   count: 3,
-                  effect: const SwapEffect(dotColor: Colors.white),
+                  effect: const SwapEffect(dotColor: Color.fromARGB(255, 187, 81, 81)),
                 ),
                 onLastPage
                     ? GestureDetector(
