@@ -62,6 +62,7 @@ List<User> getUsers() {
     {"name": "Ashish Gajjar", "username": "ashish-gajjar-067"},
 
     {"name": "Naufal Aldy Pradana", "username": "blitzkz23"}
+    {"name": "Prajwal Kale", "username": "PrajwalGKale"},
 
   ];
 
