@@ -61,7 +61,8 @@ List<User> getUsers() {
 
     {"name": "Ashish Gajjar", "username": "ashish-gajjar-067"},
 
-    {"name": "Naufal Aldy Pradana", "username": "blitzkz23"}
+    {"name": "Naufal Aldy Pradana", "username": "blitzkz23"},
+    {"name": "Muhamad Imam Taufik Febriyana", "username": "mitf"},
     {"name": "Prajwal Kale", "username": "PrajwalGKale"},
 
     {"name": "Bhoomik Shetty", "username": "Bhoomik250303"},

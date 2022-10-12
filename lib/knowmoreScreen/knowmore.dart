@@ -59,7 +59,7 @@ class Knowmore extends StatelessWidget {
               ),
               Center(
                 child: GlassmorphicContainer(
-                  height: 600.0,
+                  height: MediaQuery.of(context).size.height / 1.3,
                   width: 450.0,
                   borderRadius: 30.0,
                   blur: 15,
