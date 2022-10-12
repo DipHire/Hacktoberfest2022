@@ -58,16 +58,13 @@ List<User> getUsers() {
     {"name": "Charalambos Ioannou", "username": "CharalambosIoannou"},
     {"name": "Sudipta Chowdhury", "username": "SudiptaAChy"},
     {"name": "Wahid Ari", "username": "wahid-ari"},
-
     {"name": "Ashish Gajjar", "username": "ashish-gajjar-067"},
-
-    {"name": "Naufal Aldy Pradana", "username": "blitzkz23"}
+    {"name": "Naufal Aldy Pradana", "username": "blitzkz23"},
     {"name": "Prajwal Kale", "username": "PrajwalGKale"},
-
     {"name": "Bhoomik Shetty", "username": "Bhoomik250303"},
     {"name": "Rohit Chowdhury", "username": "Rohit-1706"},
     {"name": "Khimji", "username": "khimji9883"},
-
+    {"name": "Ranjit Shrestha", "username": "rgtstha"},
   ];
 
   return data.map<User>(User.fromJson).toList();
