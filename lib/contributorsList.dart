@@ -4,6 +4,8 @@ List<User> getUsers() {
   // Add your Name and username
   const data = [
     {"name": "Dip Hire", "username": "diphire"},
+        {"name": "Sohan Beniwal", "username": "sohan-beniwal"},
+
     {"name": "Krish Chopra", "username": "KrishChopra22"},
     {"name": "Elon Musk", "username": "dogefather"},
     {"name": "Tony Stark", "username": "imironman"},
