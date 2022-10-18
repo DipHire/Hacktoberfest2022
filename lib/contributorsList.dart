@@ -3,6 +3,7 @@ import 'contributors_screen/user.dart';
 List<User> getUsers() {
   // Add your Name and username
   const data = [
+    {"name": "Syed Mehtab Ali", "username": "syedmehtabali"},
     {"name": "Dip Hire", "username": "diphire"},
     {"name": "Sohan Beniwal", "username": "sohan-beniwal"},
     {"name": "Krish Chopra", "username": "KrishChopra22"},
