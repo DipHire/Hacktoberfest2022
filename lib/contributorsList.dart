@@ -70,7 +70,8 @@ List<User> getUsers() {
     {"name": "Khimji", "username": "khimji9883"},
     {"name": "Dominick R.G", "username": "c3k4ah"},
     {"name": "Saurav Kumar", "username": "saurav1207"},
-    {"name": "Alli Aga", "username": "AlliAga"}
+    {"name": "Ayush Srivastava", "username": "ayush91985"},
+    {"name": "Alli Aga", "username": "AlliAga"},
     {"name": "raghav" , "username": "viper-raghav"}
   ];
 
