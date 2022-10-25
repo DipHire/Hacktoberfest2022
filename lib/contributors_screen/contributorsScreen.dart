@@ -4,6 +4,7 @@ import 'package:hacktoberfest/themes.dart';
 import 'package:hacktoberfest/util/custom_tile.dart';
 
 import '../contributorsList.dart';
+import '../util/custom_grid_tile.dart';
 
 class ContributorsScreen extends StatefulWidget {
   const ContributorsScreen({super.key});
@@ -14,6 +15,7 @@ class ContributorsScreen extends StatefulWidget {
 
 class _ContributorsScreenState extends State<ContributorsScreen> {
   List<User> users = getUsers();
+  bool isGridView = false;
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +25,24 @@ class _ContributorsScreenState extends State<ContributorsScreen> {
             image: AssetImage("images/bg.png"), fit: BoxFit.cover),
       ),
       child: Scaffold(
+        extendBodyBehindAppBar: true,
         backgroundColor: Colors.transparent,
+        appBar: AppBar(
+          automaticallyImplyLeading: false,
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          actions: [
+            //toggle button for list and grid view
+            IconButton(
+              icon: Icon(isGridView ? Icons.list : Icons.grid_view),
+              onPressed: () {
+                setState(() {
+                  isGridView = !isGridView;
+                });
+              },
+            ),
+          ],
+        ),
         body: Column(
           children: [
             Container(
@@ -48,7 +67,9 @@ class _ContributorsScreenState extends State<ContributorsScreen> {
               child: SizedBox(
                 // height: 400,
                 width: MediaQuery.of(context).size.width,
-                child: buildUser(users),
+                child: isGridView
+                    ? buildUserGridView(users)
+                    : buildUserListView(users),
               ),
             )
           ],
@@ -57,11 +78,23 @@ class _ContributorsScreenState extends State<ContributorsScreen> {
     );
   }
 
-  Widget buildUser(List<User> users) => ListView.builder(
+  Widget buildUserListView(List<User> users) => ListView.builder(
+        padding: EdgeInsets.zero,
         itemCount: users.length,
         itemBuilder: ((context, index) {
           final user = users[index];
           return CListTile(Name: user.name, Username: user.username);
         }),
+      );
+
+  Widget buildUserGridView(List<User> users) => GridView.builder(
+        padding: EdgeInsets.zero,
+        itemCount: users.length,
+        itemBuilder: ((context, index) {
+          final user = users[index];
+          return CGridTile(Name: user.name, Username: user.username);
+        }),
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2, crossAxisSpacing: 15, mainAxisSpacing: 15),
       );
 }
