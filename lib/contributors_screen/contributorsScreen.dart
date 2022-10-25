@@ -35,9 +35,14 @@ class _ContributorsScreenState extends State<ContributorsScreen> {
                 fit: BoxFit.contain,
               ),
             ),
-            Text(
-              'All Contributors',
-              style: kHeadline,
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 15.0),
+              child: FittedBox(
+                child: Text(
+                  'All Contributors',
+                  style: kHeadline,
+                ),
+              ),
             ),
             Flexible(
               child: SizedBox(

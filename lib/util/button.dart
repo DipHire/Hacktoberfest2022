@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class GradBtn extends StatelessWidget {
-  final text;
-  final route;
+  final String text;
+  final String route;
   const GradBtn(this.text, this.route, {super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 50.0,
       child: ElevatedButton(
         onPressed: () {
