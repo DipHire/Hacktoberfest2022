@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hacktoberfest/contributors_screen/user.dart';
 import 'package:hacktoberfest/themes.dart';
+import 'package:hacktoberfest/util/custom_grid_tile.dart';
 import 'package:hacktoberfest/util/custom_tile.dart';
 
 import '../contributorsList.dart';
@@ -14,6 +15,8 @@ class ContributorsScreen extends StatefulWidget {
 
 class _ContributorsScreenState extends State<ContributorsScreen> {
   List<User> users = getUsers();
+
+  bool _isLinear = true;
 
   @override
   Widget build(BuildContext context) {
@@ -39,6 +42,34 @@ class _ContributorsScreenState extends State<ContributorsScreen> {
               'All Contributors',
               style: kHeadline,
             ),
+            Row(
+              children: [
+                IconButton(
+                  onPressed: () {
+                    setState(() {
+                      _isLinear = true;
+                    });
+                  },
+                  icon: (_isLinear == true)
+                      ? const Icon(Icons.menu,
+                          color: Colors.blueGrey, size: 34.0)
+                      : const Icon(Icons.menu, color: Colors.white, size: 24.0),
+                ),
+                const SizedBox(width: 5.0),
+                IconButton(
+                  onPressed: () {
+                    setState(() {
+                      _isLinear = false;
+                    });
+                  },
+                  icon: (_isLinear == false)
+                      ? const Icon(Icons.grid_view,
+                          color: Colors.blueGrey, size: 34.0)
+                      : const Icon(Icons.grid_view,
+                          color: Colors.white, size: 24.0),
+                ),
+              ],
+            ),
             Flexible(
               child: SizedBox(
                 // height: 400,
@@ -52,11 +83,22 @@ class _ContributorsScreenState extends State<ContributorsScreen> {
     );
   }
 
-  Widget buildUser(List<User> users) => ListView.builder(
-        itemCount: users.length,
-        itemBuilder: ((context, index) {
-          final user = users[index];
-          return CListTile(Name: user.name, Username: user.username);
-        }),
-      );
+  Widget buildUser(List<User> users) => (_isLinear)
+      ? ListView.builder(
+          itemCount: users.length,
+          itemBuilder: ((context, index) {
+            final user = users[index];
+            return CListTile(Name: user.name, Username: user.username);
+          }),
+        )
+      : GridView.builder(
+          itemCount: users.length,
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+          ),
+          itemBuilder: ((context, index) {
+            final user = users[index];
+            return CGridTile(Name: user.name, Username: user.username);
+          }),
+        );
 }
