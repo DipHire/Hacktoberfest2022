@@ -1,6 +1,6 @@
 
 # 📖 A Guide for your first pull request
-
+## This project has been excluded by Hacktoberfest 2022
 <br>
 <p align="center">
 <img src="https://raw.githubusercontent.com/DipHire/Hacktoberfest2022/master/screenshots/1.gif?token=GHSAT0AAAAAABVZ5UFXPNHNARHM3NKGR7HEYZYMVJQ" height=500>

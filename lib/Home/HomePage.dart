@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
               const SizedBox(
                 height: 10.0,
               ),
-              const GradBtn("All Contrubutors", '/Contributors'),
+              const GradBtn("All Contributors", '/Contributors'),
               const SizedBox(
                 height: 10.0,
               ),
