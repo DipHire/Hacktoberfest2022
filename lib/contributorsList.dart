@@ -3,6 +3,7 @@ import 'contributors_screen/user.dart';
 List<User> getUsers() {
   // Add your Name and username
   const data = [
+    {"name": "Yash Arora", "username": "Arora-Yash-coder"},
     {"name": "Syed Mehtab Ali", "username": "syedmehtabali"},
     {"name": "Dip Hire", "username": "diphire"},
     {"name": "Sohan Beniwal", "username": "sohan-beniwal"},
@@ -72,8 +73,8 @@ List<User> getUsers() {
     {"name": "Saurav Kumar", "username": "saurav1207"},
     {"name": "Ayush Srivastava", "username": "ayush91985"},
     {"name": "Alli Aga", "username": "AlliAga"},
-    {"name": "raghav" , "username": "viper-raghav"},
-    {"name": "Kurniawan Gigih Lutfi Umam" , "username": "Umaaamm"}
+    {"name": "raghav", "username": "viper-raghav"},
+    {"name": "Kurniawan Gigih Lutfi Umam", "username": "Umaaamm"}
   ];
 
   return data.map<User>(User.fromJson).toList();
