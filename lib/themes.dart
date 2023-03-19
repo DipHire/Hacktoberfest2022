@@ -12,6 +12,11 @@ TextStyle kName = TextStyle(
     fontWeight: FontWeight.bold,
     fontFamily: GoogleFonts.openSans().fontFamily,
     color: kprimevoid);
+TextStyle kName1 = TextStyle(
+    fontSize: 20.0,
+    fontWeight: FontWeight.bold,
+    fontFamily: GoogleFonts.openSans().fontFamily,
+    color: kprimevoid);
 TextStyle kUsername = TextStyle(
     fontSize: 22.0,
     fontWeight: FontWeight.normal,
