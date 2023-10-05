@@ -1,4 +1,4 @@
-
+# ⚠️ UPDATED: THIS REPO IS NO MORE APPLICABLE FOR HACKTOBERFEST!
 # 📖 A Guide for your first pull request
 ## This project has been excluded by Hacktoberfest 2022
 <br>
@@ -10,7 +10,7 @@
 
 </p>
 
-### ✨This project will help you to make your first pull request for Hacktoberfest .
+### ✨This project will help you to make your first pull request for Hacktoberfest.
 
 #### ⚙️Setup
 1. Git installed on your computer (You can download it from https://git-scm.com/downloads )
